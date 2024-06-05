@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExtendScaleType">
+        <attr name="scaleType" format="enum">
+            <!--  扩展scaleType  - leftCrop
+                  垂直方向充满，均匀缩放，显示在控件顶部，超出控件部分进行裁剪，优化显示图片左侧 -->
+            <enum name="leftCrop" value="8" />
+            <!--水平方向充满，均匀缩放，显示在控件顶部，超出控件部分进行裁剪，优先显示图片顶部-->
+            <enum name="topCrop" value="9" />
+            <!--垂直方向充满，均匀缩放，显示在控件顶部，超出控件部分进行裁剪，优先显示图片右侧-->
+            <enum name="rightCrop" value="10" />
+            <!--水平方向充满，均匀缩放，显示在控件顶部，超出控件部分进行裁剪，优先显示图片底部-->
+            <enum name="bottomCrop" value="11" />
+
+            <enum name="matrix" value="0" />
+            <enum name="fitXY" value="1" />
+            <enum name="fitStart" value="2" />
+            <enum name="fitCenter" value="3" />
+            <enum name="fitEnd" value="4" />
+            <enum name="center" value="5" />
+            <enum name="centerCrop" value="6" />
+            <enum name="centerInside" value="7" />
+        </attr>
+
+        <attr name="srcGravity" format="reference">
+            <flag name="top" value="48" />
+            <flag name="bottom" value="80" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="center_vertical" value="16" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center" value="17" />
+        </attr>
+    </declare-styleable>
+</resources>
