@@ -1,4 +1,7 @@
 /**
+ * 描述
+ * 
+ * 
  * 扩展ImageView
  * <p>
  * 扩展功能一：扩展ScaleType属性
